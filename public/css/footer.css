@@ -1,0 +1,134 @@
+#newsletter{
+    margin-top: 80px;
+
+}
+.newsletter{
+    padding-bottom: 70px;
+    border-bottom: 1px solid var(--logo-blue);
+
+}
+.subsription, .addr{
+    text-align: center;
+    line-height: 30px;
+
+}
+.subsription p:nth-of-type(1), .navigate .infotitle, .addr p:nth-of-type(1){
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 600;
+
+}
+.subsription p:nth-of-type(2){
+    font-family: 'Playfair Display', serif !important;
+    letter-spacing: 2px;
+
+}
+.info p{
+    line-height: 30px;
+    text-align: center;
+
+
+}
+.info a, .addr p{
+    font-family: 'Playfair Display', serif !important;
+    text-transform: capitalize;
+    color: inherit;
+    letter-spacing: 1px;
+        
+}
+.addr .fa{
+    font-size: 20px;
+    padding-right: 10px;
+    color: var(--logo-blue);
+}
+#mailaddr{
+    width: 80%;
+    padding: 5px 10px;
+    border-radius: 0px;
+    box-shadow: none !important;
+    border: 1px solid transparent;
+    background: rgb(241, 241, 241);
+}
+.myBtn{
+    margin-top: 20px;
+    padding: 7px 40px;
+    background: var(--logo-blue);
+    border-radius: 30px;
+    border: 1px solid transparent;
+    color: white;
+    box-shadow: none !important;
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .5s;
+    
+}
+.myBtn:hover{
+    background: white;
+    color: var(--logo-blue);
+    border: 1px solid var(--logo-blue);
+}
+.social-links{
+    padding: 10px;
+    margin-top: 15px; 
+    margin-bottom: 5px; 
+}
+
+.circle-icon{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    vertical-align: middle;
+    perspective: 800px;
+    transition: 1s;
+    background: var(--logo-blue);
+    padding-right: 13px !important;
+    display: inline-block;
+
+}
+.circle-icon:hover{
+    transform: rotateY(180deg);
+}
+
+.circle-icon .fa{
+    padding-left: 12px;
+    padding-top: 10px;
+    color: white;
+}
+.copyright{
+    font-family: 'Playfair Display', serif !important;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-align: right;
+}
+.copyright a{
+    color: inherit;
+    font-style: italic;
+    transition: .5s
+}
+.copyright a:hover{
+    color: var(--red);
+}
+@media only screen and (max-width: 768px){
+    .addr{
+        margin-top: 70px !important;
+    }
+    .copyright{
+        margin-top: 30px !important;
+        text-align: justify;
+
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .circle-icon{
+        margin-right: 10px;
+    }
+}

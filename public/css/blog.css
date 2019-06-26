@@ -1,0 +1,92 @@
+.blog{
+    margin-top: 130px;
+    background-color: rgb(241, 241, 241);
+    padding-top: 50px;
+    padding-bottom: 80px;
+
+}
+
+.titles{
+    list-style: square;
+    margin-left: -10px;
+    transition: .5s;
+}
+.list:hover{
+    margin-left: 10px
+}
+.titles .list{
+    padding-bottom: 20px;
+    transition: .3s;
+}
+.titles a{
+    font-family: 'Playfair Display', serif !important;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: .3s;
+    color: var(--logo-blue);
+    font-size: 13px;
+
+}
+.titles a:hover{
+    color: var(--red);
+}
+.archiveTitle{
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.underline3{
+    width: 40px;
+    border-color: var(--red);
+    margin-left: 0px;
+    border-width: 3px;
+}
+.content{
+    padding-left: 20px;
+    border-right: 1px solid rgba(126, 129, 140,.4);
+
+} 
+.blogdate{
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    letter-spacing: 2px;
+    font-size: 17px;
+    padding-bottom: 25px;
+    text-transform: capitalize;
+
+}
+.blogtitle{
+    font-family: 'Playfair Display', serif !important;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+
+}
+.blogimage{
+    height: auto;
+    width: auto;
+}
+.blogcontent{
+    padding-top: 30px;
+    line-height: 30px;
+    text-align: justify;
+}
+.sharetitle{
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    letter-spacing: 2px;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 768px){
+    .content{
+        border-right: none;
+        margin-top: 50px;
+    }
+    .blog{
+        margin-top: 0px;
+    }
+    .archive{
+        margin-top: 50px;
+    }
+}

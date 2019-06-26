@@ -1,0 +1,118 @@
+.featured1{
+    display: none;
+}
+.allproducts{
+     margin-top: 130px;
+    background-color: rgb(241, 241, 241);
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.title2{
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+.title2{
+    border-bottom: 1px solid rgb(126, 129, 140);
+    padding-bottom: 20px;
+}
+.row1 span:nth-of-type(1){
+    font-family: 'Playfair Display', serif !important;
+    letter-spacing: 2px;
+    color: var(--red);
+    font-size: 17px;
+    text-transform: capitalize;
+}
+#loadMore{
+    margin-top: 50px;
+    background: white;
+    border-left: 3px solid var(--logo-blue) !important;
+    border: none;
+    color: var(--logo-blue);
+    border-radius: 0px;
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    padding: 7px 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    transition: .2s;
+    font-weight: 600;
+}
+#loadMore:hover{
+    margin-left: 10px;
+}
+.to-top{
+    margin-top: 50px;
+    margin-left: -70px;
+    background: white;
+    color: var(--logo-blue);
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid var(--logo-blue);
+    padding-left: 8px;
+    padding-top: 2px;
+    transition: .3s;
+    
+    
+}
+.to-top:hover{
+    background-color: var(--logo-blue);
+    color: white;
+    padding-top: 0px;
+}
+.to-top .fa{
+    font-size: 25px;
+}
+.totop{
+    position: relative;
+}
+.devSpan{
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    margin-top: -30px;
+    margin-left: -20px;
+    position: absolute;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: var(--logo-blue);
+    padding-top: 2px;
+
+}
+.devSpan:hover{
+    padding-top: 0px;
+}
+@media only screen and (max-width: 768px){
+    .allproducts{
+        margin-top: 0px;
+
+    }
+    .row1{
+        padding-top: 50px;
+        text-align: center;
+        
+
+    }
+    .title2{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .row1 span{
+        text-align: center;
+        padding-left: 20px;
+    }
+    .to-top{
+        margin-left: 5px;
+
+    }
+    .devSpan{
+        margin-left: 50px;
+    }
+    .loadMore{
+        display: block;
+        margin: 0 auto;
+    }
+    
+}

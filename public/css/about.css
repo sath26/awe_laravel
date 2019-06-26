@@ -1,0 +1,41 @@
+.aboutImg img{
+    width: 100%;
+}
+ .abouttitle{
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    color: var(--logo-blue);
+    text-align: center;
+}
+.underline1{
+    width: 40px;
+    border-color: var(--red);
+    margin-left: 10px;
+    border-width: 3px;
+    display: block;
+    margin: 10px auto;
+}
+.aboutdesc{
+    line-height: 30px;
+    text-align: justify;
+    padding-top: 30px !important;
+    
+}
+.firstrow, .secondrow{
+    padding-bottom: 50px;
+}
+@media only screen and (max-width: 768px){
+    .abouttitle{
+        padding-top: 50px;
+    }
+    .underline1{
+        margin-bottom: 30px;
+    }
+    .smalldevimg{
+        display: block !important;
+    }
+}

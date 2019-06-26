@@ -1,0 +1,82 @@
+.contactSection{
+    margin-top: 130px;
+    background-color: rgb(241, 241, 241);
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.contactTitle{
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 15px;
+    color: var(--logo-blue);
+    text-align: right;
+    line-height: 30px;
+
+}
+.contactInfo{
+    line-height: 30px;
+    padding-right: 15px;
+    text-align: right;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.addr iframe{
+    width: 100%;
+    border: none;
+    height: 270px;
+    padding-right: 15px;
+}
+.feedback .contactTitle{
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+.contact-form input, .contact-form textarea{
+    border-radius: 0px;
+    border: 0px;
+}
+.contact-form input:focus, .contact-form textare:focus{
+    box-shadow: none;
+}
+.submit{
+    border: none;
+    color: var(--logo-blue);
+    border-radius: 0px !important;
+    transition: .2s;
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    background: white;
+    display: block;
+    margin: 10px auto;
+    font-weight: 700 !important;
+
+}
+.submit:hover{
+    margin-left: 10px;
+    color: var(--logo-blue) !important;
+}
+@media only screen and (max-width: 768px){
+    .contactSection{
+        margin-top: 0px;
+        padding-top: 0px;
+
+    }
+    .contactTitle{
+        padding-top: 10px;
+    }
+    .contactTitle, .contactInfo{
+        text-align: center!important;
+    }
+    .addr iframe{
+        margin-bottom: 50px;
+    }
+    .submit{
+        display: block !important;
+        margin: 10px auto !important;
+    }
+}

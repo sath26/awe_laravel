@@ -1,0 +1,236 @@
+.singleproduct{
+    margin-top: 130px;
+/*    margin-bottom: 150px;*/
+    background-color: rgb(241, 241, 241);
+    padding-top: 50px;
+    padding-bottom: 80px;
+
+}
+.singleproduct span{
+    font-family: 'Playfair Display', serif !important;
+    text-transform: capitalize;
+    padding-right: 10px;
+    letter-spacing: 2px;
+
+}
+
+.singleproduct span a{
+    color: rgb(51, 51, 51);
+    transition: .5s;
+
+}
+.singleproduct span a:hover{
+    color: var(--red);
+
+}
+.productDesc{
+    padding-top: 30px;
+    margin-left: -50px !important;
+}
+.productTitle{
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--logo-blue);
+    font-weight: 600;
+    border-bottom: 1px solid rgb(126, 129, 140);
+    padding-bottom: 20px;
+    
+}
+.productPrice1{
+    font-family: 'Playfair Display', serif !important;
+    letter-spacing: 2px;
+    font-size: 25px !important;
+    padding-top: 20px;
+    font-weight: 100 !important;
+    
+    
+    
+}
+.details{
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    padding-top: 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    border-bottom: 1px solid rgb(126, 129, 140);
+    padding-bottom: 20px;
+    
+
+}
+.details p, .productPrice p{
+    padding-bottom: 10px;
+    font-family: 'Playfair Display', serif !important;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.addtocart{
+    padding-top: 30px;
+}
+.tocart{
+    padding: 7px 15px;
+    border-radius: 20px;
+    border: 1px solid var(--logo-blue);
+    background: white;
+    color: var(--logo-blue);
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    transition: .5s;
+
+}
+.tocart:hover{
+    background: var(--logo-blue);
+    color: white;
+}
+input.form-control.input-number{
+    background: white;
+    width: 55px;
+    margin-left: -9px;
+    color: var(--logo-blue);
+    border-left: white !important;
+    border-right: white !important;
+    border-top: 1px solid var(--logo-blue) !important;
+    border-bottom: 1px solid var(--logo-blue) !important;
+    text-align: center;
+}
+input.form-control.input-number:focus{
+    border-left: white !important;
+    border-right: white !important;
+    border-top: 1px solid var(--logo-blue) !important;
+    border-bottom: 1px solid var(--logo-blue) !important;
+    box-shadow: none !important;
+}
+.minus{
+    border-left: 1px solid var(--logo-blue) !important;
+    border-top: 1px solid var(--logo-blue) !important;
+    border-bottom: 1px solid var(--logo-blue) !important;
+    border-right: white !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    color: var(--logo-blue) !important;
+    font-weight: 600 !important;
+}
+.plus{
+    border-right: 1px solid var(--logo-blue) !important;
+    border-top: 1px solid var(--logo-blue) !important;
+    border-bottom: 1px solid var(--logo-blue) !important;
+    border-left: white !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    color: var(--logo-blue) !important;
+    font-weight: 600 !important;
+
+}
+
+.recommendation{
+    padding-top: 50px;
+}
+.recomSlider{
+    position: relative;
+    padding-top: 40px;
+    margin-right: 0px !important;
+
+}
+.recommendation .title{
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    color: var(--logo-blue);
+}
+
+.relatedproducts{
+    margin-top: -40px !important;
+}
+.relatedproducts .caption1{
+    height: 100px;
+    width: 100%;
+    position: static;
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+    color: var(--logo-blue);
+    font-family: 'Playfair Display', serif !important;
+    letter-spacing: 2px;
+    
+}
+.relatedproducts .wrap{
+    margin: 5px;
+}
+
+#nextbtn, #prevbtn{
+    position: absolute;
+    top:10px;
+    cursor: pointer;
+    background: white;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: var(--logo-blue);
+
+}
+#nextbtn{
+    right: 0;
+
+}
+#prevbtn{
+    right: 30px;
+
+}
+
+@media only screen and (max-width: 768px){
+    #nextbtn{
+        right: 5px;
+
+    }
+    #prevbtn{
+        right: 35px;
+
+    }
+    .recomSlider{
+        padding-top: 25px;
+        margin-left: 5px !important;
+    }
+    .singleproduct{
+        margin-top: 0px;
+    }
+    .productrow{
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    
+    
+    .tocart{
+        display: block;
+        margin: 20px auto
+    }
+
+    input.form-control.input-number{
+        width: 55px;
+        margin-left: -9px;
+        
+    }
+    .input-group{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .minus{
+        margin-left: -20px;
+        background: pink;
+    }
+    .similar{
+        text-align: center;
+    }
+    .similarhr{
+        display: block;
+        margin: 10px auto !important;
+        
+    }
+}

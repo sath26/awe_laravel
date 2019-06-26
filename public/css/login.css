@@ -1,0 +1,115 @@
+.gradient-layer{
+    background: linear-gradient(to bottom right,#fff, rgb(2, 47, 114),  rgb(223, 4, 20) );
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.devForm{
+    padding-top: 11%;
+}
+.registration-form{
+    background-color: white;
+    padding: 30px;
+    border-right: 2px solid rgb(40, 42, 57);
+    
+}
+.login-form{
+
+    background: rgba(255,255,255,1);
+    padding: 30px;
+    padding-bottom: 177px;
+
+}
+.loginintro{
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: capitalize;
+    
+
+}
+.logintitle{
+    font-family: 'Playfair Display', serif !important;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 22px;
+    color: rgb(2, 47, 114);
+}
+
+.devinput{
+    background: transparent;
+    border: 0px;
+    box-shadow: none;
+    border-radius: 0px;
+    border-bottom: 1px solid rgb(40, 42, 57);
+}
+.devinput:focus{
+    box-shadow: none;
+    border-color:rgb(223, 4, 20);
+    
+}
+.registerbtn button{
+    background-color: rgb(2, 47, 114);
+    color: white;
+    border-radius: 20px;
+    padding: 7px 20px;
+    font-family: 'Playfair Display', serif !important;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    box-shadow: none;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    transition: .5s;
+
+}
+.registerbtn button:hover{
+    border: 1px solid rgb(2, 47, 114);
+    color: rgb(2, 47, 114);
+    background: transparent;
+
+}
+.loginbtn button{
+    border: 1px solid rgb(2, 47, 114);
+    border-radius: 20px;
+    padding:7px 20px;
+    font-family: 'Playfair Display', serif !important;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    box-shadow: none;
+    margin-top: 10px;
+    color: rgb(2, 47, 114);
+    background: transparent;
+    transition: .5s;
+
+    
+}
+.loginbtn button:hover{
+    background-color: rgb(2, 47, 114);
+    color: white;
+    border: 1px solid transparent;
+
+}
+.registration-form .col-md-2, .login-form .col-md-2{
+    margin-left: -10px;
+}
+.registration-form .col-md-10, .login-form .col-md-10{
+    padding-right: 25px;
+}
+@media only screen and (max-width: 768px){
+    .devForm{
+        padding-top: 0px;
+    }
+    .registration-form{
+        
+        border-right: none;
+
+    }
+    .registration-form .col-md-2, .login-form .col-md-2{
+        margin-left: 10px;
+    }
+}
